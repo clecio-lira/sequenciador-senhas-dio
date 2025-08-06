@@ -10,5 +10,6 @@ export const styles = StyleSheet.create({
     fontSize: 16,
     color: "#333",
     backgroundColor: "#666",
+    textAlign: "center",
   },
 });

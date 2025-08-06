@@ -13,4 +13,8 @@ export const styles = StyleSheet.create({
     justifyContent: "center",
     marginBottom: 20,
   },
+  input: {
+    width: "80%",
+    gap: 8,
+  },
 });

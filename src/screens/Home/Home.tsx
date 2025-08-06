@@ -2,7 +2,7 @@ import React from "react";
 import { View, StatusBar } from "react-native";
 import { styles } from "./Style";
 import { BatLogo } from "../../components/BatLogo/BatLogo";
-import { BatTextInput } from "../../components/BatTextInput/BatTextInput";
+import { BatButton } from "../../components/BatButton/BatButton";
 
 const Home = () => {
   return (
@@ -11,8 +11,8 @@ const Home = () => {
         <BatLogo />
       </View>
 
-      <View>
-        <BatTextInput />
+      <View style={styles.input}>
+        <BatButton />
       </View>
 
       <StatusBar barStyle="light-content" backgroundColor="#000" />
